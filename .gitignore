@@ -1,6 +1,10 @@
-# Cache and temporary development files
+# Ignore node_modules and cache files
 node_modules/
+.cache/
 .eslintcache
 babel-loader/
 default-development/
+
+# Ignore build folder
+build/
 
