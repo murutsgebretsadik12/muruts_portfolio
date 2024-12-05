@@ -1,0 +1,6 @@
+# Cache and temporary development files
+node_modules/
+.eslintcache
+babel-loader/
+default-development/
+
