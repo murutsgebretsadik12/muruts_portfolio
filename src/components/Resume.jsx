@@ -55,6 +55,10 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 80,
     },
     {
+      name: "ETABS",
+      percent: 80,
+    },
+    {
       name: "Civil 3D",
       percent: 75,
     },
@@ -65,6 +69,10 @@ const Resume = ({ classicHeader, darkTheme }) => {
     {
       name: "Project Management",
       percent: 80,
+    },
+    {
+      name: "Eagle Point Software",
+      percent: 75,
     },
     {
       name: "HTML/CSS",
