@@ -12,7 +12,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: 'url("images/codingbgc.jpg")' }}
+          style={{ backgroundImage: 'url("images/site_engineer_bgc.jpg")' }}
         ></div>
 
 
