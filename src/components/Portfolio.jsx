@@ -17,13 +17,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Garage Management App",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "This project is a full-stack garage management application designed to streamline vehicle service scheduling, tracking, and invoicing. The application leverages React for an intuitive front-end user interface and Django for a robust and secure back-end system.",
+      client: "Patrick gray",
+      technologies: "Bootstrap 5, React, Django, JavaScript, CSS5, HTML5",
+      industry: "Automotive & Software",
+      date: "May 16, 2024",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -38,18 +38,18 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
         "images/projects/project-1.png",
-        // "images/projects/project-5.jpg",
+        "images/projects/project-2.jpg",
       ],
       categories: [filters.BRAND],
     },
     {
-      title: "Project Title 2",
+      title: "Money Transfer Application",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "A secure and scalable money transfer application designed for real-time fund transfers. The application features a React-powered front-end for a seamless user experience and a Node.js back-end for efficient and secure server-side processing. Additional features include transaction history, multi-currency support, and robust security measures.",
+      client: "Daniel Thomas",
+      technologies: "React, Node.js, HTML5, CSS3, JavaScript",
+      industry: "FinTech",
+      date: "Jan 16, 2024",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -71,11 +71,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Project Title 3",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "A fully functional eCommerce platform built using Flask, designed to provide a seamless shopping experience. The platform includes features like user authentication, product catalog, shopping cart, order management, payment integration, and an admin dashboard for inventory management. The back-end leverages Flask for robust server-side logic, while templates ensure dynamic content rendering.",
+      client: "Bereket B",
+      technologies: "A fully functional eCommerce platform built using Flask and PostgreSQL, designed to provide a seamless shopping experience. The platform includes features like user authentication, product catalog with advanced search filters, shopping cart, order management, secure payment gateway integration, and an admin dashboard for managing inventory and sales analytics. Flask handles the back-end, while PostgreSQL ensures reliable and scalable data storage.",
+      industry: "Retail & E-Commerce",
+      date: "Julu 20, 2023",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -90,114 +90,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       thumbImage: "images/projects/project-3.jpg",
       sliderImages: [
         "images/projects/project-3.png",
-        // "images/projects/project-5.jpg",
+        // "images/projects/project-2.jpg",
       ],
       categories: [filters.PHOTOS],
-    },
-    {
-      title: "Project Title 4",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-4.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-4.jpg",
-      ],
-      categories: [filters.BRAND, filters.PHOTOS],
-    },
-    {
-      title: "Project Title 5",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-5.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.DESIGN],
-    },
-    {
-      title: "Project Title 6",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-6.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.BRAND],
-    },
-    {
-      title: "Project Title 7",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-7.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.DESIGN, filters.PHOTOS],
-    },
+    }
+
   ];
 
   // initialize an Isotope object with configs

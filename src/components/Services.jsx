@@ -4,34 +4,34 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
+      name: "Construction Project Management",
+      desc: "Efficiently oversee projects from planning to completion, ensuring timelines, budget, and quality standards are met.",
+      icon: "fas fa-hard-hat",
     },
     {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
+      name: "Structural Design & Analysis",
+      desc: "Utilizing software like SAP2000 and ETABS to ensure safe, efficient, and cost-effective structural designs.",
+      icon: "fas fa-building",
     },
     {
-      name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-pencil-ruler",
+      name: "Site Supervision & Quality Control",
+      desc: "Monitoring construction sites to ensure compliance with safety regulations and engineering standards.",
+      icon: "fas fa-user-check",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
+      name: "AutoCAD & Civil 3D Drafting",
+      desc: "Creating detailed engineering drawings and plans using AutoCAD, Civil 3D, and other drafting tools.",
+      icon: "fas fa-drafting-compass",
     },
     {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
+      name: "Quantity Surveying & Cost Estimation",
+      desc: "Accurately estimating material costs and managing budgets to optimize project expenditures.",
+      icon: "fas fa-calculator",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
+      name: "Infrastructure Development & Planning",
+      desc: "Designing and planning roadways, drainage systems, and sustainable infrastructure projects.",
+      icon: "fas fa-road",
     },
   ];
 

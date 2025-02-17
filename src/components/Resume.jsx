@@ -4,56 +4,73 @@ import resumeFile from "../documents/Muruts Gebretsadik CV.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2023 - 2024",
-      title: "Full Stack Software Development",
-      place: "University of College Dublin",
-      desc: "The Full Stack Software Developer program at University College Dublin focuses on building dynamic applications using Flask, Django, and React, equipping students with comprehensive skills in full-stack development for modern web solutions.",
-    },
-    {
       yearRange: "2013 - 2018",
       title: "Civil Engineering",
       place: "Mekelle University",
       desc: "The Civil Engineering program at Mekelle University covers design, sustainability, and programming with C++, alongside advanced tools like AutoCAD, SAP2000, and ETABS, preparing students for modern infrastructure challenges",
+    },
+    {
+      yearRange: "2023 - 2024",
+      title: "Full Stack Software Development",
+      place: "University of College Dublin",
+      desc: "The Full Stack Software Developer program at University College Dublin focuses on building dynamic applications using Flask, Django, and React, equipping students with comprehensive skills in full-stack development for modern web solutions.",
     }
-   
   ];
 
   const experienceDetails = [
-    {
-      yearRange: "2022 - now",
-      title: "Jr. Web Developer",
-      place: "Upwork",
-      desc: "Worked as a Jr. Web Developer on Upwork, specializing in responsive web design and front-end development, delivering modern and user-friendly websites for various clients.",
-    },
+   
     {
       yearRange: "2020 - 2022",
       title: "Site Engineer",
       place: "Tsegaye Birhane & His Family Real Estate",
       desc: "Worked as a Site Engineer at Tsegaye Birhane & His Family Real Estate, overseeing the construction of apartments while ensuring quality standards, adherence to engineering practices, and timely project delivery."
     },
+  
     {
-      YearRange: "2018 - 2020",
-      Title: "Office Engineer",
-      Place: "Jadia Construction Plc",
-      Description: "Worked as an Office Engineer at Jadia Construction Plc, focusing on the design and planning of highways, ensuring compliance with engineering standards and project requirements."
+      yearRange: "2018 - 2020",
+      title: "Office Engineer",
+      place: "Jadia Construction Plc",
+      desc: "Worked as an Office Engineer at Jadia Construction Plc, focusing on the design and planning of highways, ensuring compliance with engineering standards and project requirements."
     },
+      {
+      yearRange: "2023 - 2024",
+      title: "Jr. Web Developer",
+      place: "Upwork",
+      desc: "Worked as a Jr. Web Developer on Upwork, specializing in responsive web design and front-end development, delivering modern and user-friendly websites for various clients.",
+    }
   
 
   ];
-
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "AutoCAD",
+      percent: 90,
+    },
+    {
+      name: "SAP2000",
+      percent: 85,
+    },
+    {
+      name: "ETABS",
+      percent: 80,
+    },
+    {
+      name: "Civil 3D",
+      percent: 75,
+    },
+    {
+      name: "Structural Analysis",
+      percent: 75,
+    },
+    {
+      name: "Project Management",
+      percent: 80,
     },
     {
       name: "HTML/CSS",
       percent: 95,
     },
-    {
-      name: "JavaScript",
-      percent: 80,
-    },
+  
     {
       name: "React JS",
       percent: 70,
@@ -61,12 +78,10 @@ const Resume = ({ classicHeader, darkTheme }) => {
     {
       name: "Python",
       percent: 70,
-    },
-    {
-      name: "Bootstrap",
-      percent: 80,
-    },
+    }
   ];
+  
+
 
   return (
     <section

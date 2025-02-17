@@ -33,17 +33,13 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Muruts Gebretsadik,</span> a Web
-              Developer
+              I'm <span className="text-primary">Muruts Gebretsadik,</span> a Civil Engineer & Site Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I can help you build a strong and unique brand for your business at an affordable price. 
-              With dedication and creativity, I deliver exceptional results tailored to your needs. 
-              Let's work together to transform your vision into reality, ensuring your business stands out in a competitive market.
+            I am a dedicated **Civil Engineer** with expertise in structural design, project management, and site supervision. With a strong background in **AutoCAD, SAP2000, ETABS, and Civil 3D**, I have successfully contributed to residential and infrastructure projects, ensuring high standards of safety and efficiency.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work on time and within budget while meeting clients' requirements is our core principle. 
-              We pride ourselves on maintaining high standards and providing tailored solutions to ensure your satisfaction and success.
+            My experience as a **Site Engineer** has equipped me with the ability to coordinate teams, manage construction schedules, and maintain cost-effective solutions. Passionate about delivering **high-quality, sustainable, and innovative engineering solutions**, I am committed to driving successful project outcomes.
             </p>
           </div>
           {/* About me content end */}
@@ -63,9 +59,9 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span className="fw-600 me-2">Email:</span>
                   <a href="mailto:chat@simone.com">murutsgebretsadik12@gmail.com</a>
                 </li>
-                <li>
+                {/* <li>
                   <span className="fw-600 me-2">Age:</span>29
-                </li>
+                </li> */}
                 <li className="border-0">
                   <span className="fw-600 me-2">From:</span> Dublin,
                   Ireland
@@ -98,7 +94,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>1</span>+
+                  <span>4</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance
@@ -143,7 +139,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>1</span>
+                  <span>2</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Get Awards

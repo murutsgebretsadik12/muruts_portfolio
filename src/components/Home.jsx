@@ -12,7 +12,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: 'url("images/bgc-3.webp")' }}
+          style={{ backgroundImage: 'url("images/codingbgc.jpg")' }}
         ></div>
 
 
@@ -26,9 +26,9 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     options={{
                       strings: [
                         "I'm Muruts Gebretsadik.",
-                        "I'm a Freelancer.",
-                        "I'm a Web Developer.",
-                        "I'm a Content Moderater.",
+                        "I'm a Civil Engineer.",
+                        "I'm a Site Engineer.",
+                        "I specialize in construction & infrastructure.",
                       ],
                       autoStart: true,
                       loop: true,
