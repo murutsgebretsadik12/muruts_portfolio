@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/Muruts Gebretsadik CV.pdf";
+import resumeFile from "../documents/Muruts Gebretsadik.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
@@ -10,7 +10,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "The Civil Engineering program at Mekelle University covers design, sustainability, and programming with C++, alongside advanced tools like AutoCAD, SAP2000, and ETABS, preparing students for modern infrastructure challenges",
     },
     {
-      yearRange: "2023 - 2024",
+      yearRange: "2024 - 2025",
       title: "Full Stack Software Development",
       place: "University of College Dublin",
       desc: "The Full Stack Software Developer program at University College Dublin focuses on building dynamic applications using Flask, Django, and React, equipping students with comprehensive skills in full-stack development for modern web solutions.",
@@ -20,7 +20,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
   const experienceDetails = [
    
     {
-      yearRange: "2020 - 2022",
+      yearRange: "2020 - 2023",
       title: "Site Engineer",
       place: "Tsegaye Birhane & His Family Real Estate",
       desc: "Worked as a Site Engineer at Tsegaye Birhane & His Family Real Estate, overseeing the construction of apartments while ensuring quality standards, adherence to engineering practices, and timely project delivery."
@@ -32,13 +32,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
       place: "Jadia Construction Plc",
       desc: "Worked as an Office Engineer at Jadia Construction Plc, focusing on the design and planning of highways, ensuring compliance with engineering standards and project requirements."
     },
-      {
-      yearRange: "2023 - 2024",
-      title: "Jr. Web Developer",
-      place: "Upwork",
-      desc: "Worked as a Jr. Web Developer on Upwork, specializing in responsive web design and front-end development, delivering modern and user-friendly websites for various clients.",
-    }
-  
+    {
+      "yearRange": "Sep 2017 - Feb 2018",
+      "title": "Highway Engineer",
+      "place": "Defense Construction Enterprise",
+      "desc": "Assisted in the design and planning of highway projects, ensuring adherence to safety standards and engineering guidelines. Conducted site inspections and data collection to support construction progress. Supported project managers with daily site coordination and communication with subcontractors."
+    },
+ 
 
   ];
   const skills = [
