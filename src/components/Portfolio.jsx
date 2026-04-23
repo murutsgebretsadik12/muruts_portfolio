@@ -11,7 +11,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const filters = {
     DESIGN: "Desing",
-    BRAND: "Brand",
+    BRAND: "Construction",
     PHOTOS: "Photos",
   };
 
@@ -43,12 +43,12 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.BRAND],
     },
     {
-      title: "Money Transfer Application",
+      title: "Residential House Revit Documentation",
       projectInfo:
-        "A secure and scalable money transfer application designed for real-time fund transfers. The application features a React-powered front-end for a seamless user experience and a Node.js back-end for efficient and secure server-side processing. Additional features include transaction history, multi-currency support, and robust security measures.",
+        "This project presents a complete Autodesk Revit sheet set for a residential house, including floor plans, elevations, 3D perspectives, and a cover sheet. It demonstrates BIM workflow, architectural drawing organization, and professional documentation standards for residential design.",
       client: "Daniel Thomas",
-      technologies: "React, Node.js, HTML5, CSS3, JavaScript",
-      industry: "FinTech",
+      technologies: "Autodesk Revit, BIM, Architectural Documentation, 3D Modeling",
+      industry: "Architecture & Construction",
       date: "Jan 16, 2024",
       url: {
         name: "www.example.com",
