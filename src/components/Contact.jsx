@@ -96,13 +96,13 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <br />
               Mountjoy, Dublin 1
               <br />
-              Dublin, D01 KN92
+              Dublin, 
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (+353) 833 018 415 
+              (+353) 833 018 416 
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">

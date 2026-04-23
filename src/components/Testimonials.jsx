@@ -5,17 +5,17 @@ import Slider from "react-slick";
 const Testimonials = ({ classicHeader, darkTheme }) => {
   const reviews = [
     {
-      name: "Dennis Jacques",
-      position: "User from USA",
+      name: "Abrham Mesfin",
+      position: "User from ADDIS ABABA",
       src: "images/testimonial/client-sm-3.jpg",
-      desc: "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.",
+      desc: "Excellent work in Autodesk Revit modeling and civil engineering documentation. The project drawings were clear, well-organized, and professionally presented from concept to final sheet setup.",
       rating: 5,
     },
     {
-      name: "Jay Shah",
-      position: "Founder at Icomatic Pvt Ltd",
+      name: "Tsegaye birhane",
+      position: "TBF real estate Pvt Ltd",
       src: "images/testimonial/client-sm-1.jpg",
-      desc: "Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.",
+      desc: "A reliable civil engineering professional with strong Revit modeling skills. The 3D views, drawing coordination, and attention to detail helped communicate the design accurately and efficiently.",
       rating: 5,
     },
     {
