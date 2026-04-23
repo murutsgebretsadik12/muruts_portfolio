@@ -17,7 +17,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Garage Management App",
+      title: "Residential House Revit Documentation",
       projectInfo:
         "This project is a full-stack garage management application designed to streamline vehicle service scheduling, tracking, and invoicing. The application leverages React for an intuitive front-end user interface and Django for a robust and secure back-end system.",
       client: "Patrick gray",
@@ -42,16 +42,17 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.BRAND],
     },
+
     {
-      title: "Residential House Revit Documentation",
+          title: "Residential House Revit Documentation",
       projectInfo:
         "This project presents a complete Autodesk Revit sheet set for a residential house, including floor plans, elevations, 3D perspectives, and a cover sheet. It demonstrates BIM workflow, architectural drawing organization, and professional documentation standards for residential design.",
-      client: "Daniel Thomas",
+      client: "Sample Residential Project",
       technologies: "Autodesk Revit, BIM, Architectural Documentation, 3D Modeling",
       industry: "Architecture & Construction",
-      date: "Jan 16, 2024",
+      date: "May 16, 2024",
       url: {
-        name: "www.example.com",
+        name: "Portfolio Project",
         link: "https://www.example.com",
       },
       socialLinks: {
