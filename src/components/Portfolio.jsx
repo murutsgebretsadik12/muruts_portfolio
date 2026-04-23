@@ -61,9 +61,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-2.jpg",
+      thumbImage: "images/projects/revit_11.png",
       sliderImages: [
-        "images/projects/project-2.png",
+        "images/projects/revit_11.png",
         // "images/projects/project-5.jpg",
       ],
       categories: [filters.DESIGN],

@@ -4,16 +4,23 @@ import resumeFile from "../documents/Muruts Gebretsadik.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2013 - 2018",
-      title: "Civil Engineering",
-      place: "Mekelle University",
-      desc: "The Civil Engineering program at Mekelle University covers design, sustainability, and programming with C++, alongside advanced tools like AutoCAD, SAP2000, and ETABS, preparing students for modern infrastructure challenges",
+      yearRange: "Sep 2025 - Jun 2027",
+      title: "Postgraduate in Digital Construction and Engineering Analytics",
+      place: "Technological University Dublin",
+      desc: "Specializing in digital construction, BIM, and engineering analytics. Focus on data-driven construction methods, project optimization, and advanced digital tools for the construction industry."
     },
+   
     {
       yearRange: "2024 - 2025",
       title: "Full Stack Software Development",
       place: "University of College Dublin",
       desc: "The Full Stack Software Developer program at University College Dublin focuses on building dynamic applications using Flask, Django, and React, equipping students with comprehensive skills in full-stack development for modern web solutions.",
+    },
+    {
+      yearRange: "2013 - 2018",
+      title: "Civil Engineering",
+      place: "Mekelle University",
+      desc: "The Civil Engineering program at Mekelle University covers design, sustainability, and programming with C++, alongside advanced tools like AutoCAD, SAP2000, and ETABS, preparing students for modern infrastructure challenges",
     }
   ];
 
@@ -22,15 +29,14 @@ const Resume = ({ classicHeader, darkTheme }) => {
     {
       yearRange: "2020 - 2023",
       title: "Site Engineer",
-      place: "Tsegaye Birhane & His Family Real Estate",
-      desc: "Worked as a Site Engineer at Tsegaye Birhane & His Family Real Estate, overseeing the construction of apartments while ensuring quality standards, adherence to engineering practices, and timely project delivery."
+      place: "Jadia Construction Plc",
+      desc: "Worked as a Site Engineer at Jadia Construction Plc on the Tsegaye Birhane & Family Real Estate project. Responsible for site supervision, quality control, and ensuring construction work followed engineering drawings, safety standards, and project deadlines."
     },
-  
     {
       yearRange: "2018 - 2020",
       title: "Office Engineer",
       place: "Jadia Construction Plc",
-      desc: "Worked as an Office Engineer at Jadia Construction Plc, focusing on the design and planning of highways, ensuring compliance with engineering standards and project requirements."
+      desc: "Worked as an Office Engineer at Jadia Construction Plc, supporting highway design and project planning. Prepared technical documents, assisted in design reviews, and ensured compliance with engineering standards and project requirements."
     },
     {
       "yearRange": "Sep 2017 - Feb 2018",
@@ -47,21 +53,22 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 90,
     },
     {
+      name: "Revit",
+      percent: 70,
+    },
+    {
       name: "SAP2000",
       percent: 85,
-    },
-    {
-      name: "ETABS",
-      percent: 80,
-    },
-    {
-      name: "ETABS",
-      percent: 80,
     },
     {
       name: "Civil 3D",
       percent: 75,
     },
+    {
+      name: "ETABS",
+      percent: 80,
+    },
+    
     {
       name: "Structural Analysis",
       percent: 75,
@@ -74,10 +81,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       name: "Eagle Point Software",
       percent: 75,
     },
-    {
-      name: "HTML/CSS",
-      percent: 95,
-    },
+
   
     {
       name: "React JS",

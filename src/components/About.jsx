@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/Muruts Gebretsadik_site_eng.pdf";
+import resumeFile from "../documents/Cv_Muruts.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
@@ -35,12 +35,21 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             >
               I'm <span className="text-primary">Muruts Gebretsadik,</span> a Civil Engineer & Site Engineer
             </h2>
-            <p className={darkTheme ? "text-white-50" : ""}>
-            I am a dedicated **Civil Engineer** with expertise in structural design, project management, and site supervision. With a strong background in **AutoCAD, SAP2000, ETABS, and Civil 3D**, I have successfully contributed to residential and infrastructure projects, ensuring high standards of safety and efficiency.
-            </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
-            My experience as a **Site Engineer** has equipped me with the ability to coordinate teams, manage construction schedules, and maintain cost-effective solutions. Passionate about delivering **high-quality, sustainable, and innovative engineering solutions**, I am committed to driving successful project outcomes.
-            </p>
+              <p>
+              I am a Civil Engineer with experience in structural design, site supervision, and project coordination. I have worked on residential and infrastructure projects, ensuring quality, safety, and timely delivery.
+              </p>
+
+              <p>
+              I have strong technical skills in AutoCAD, Revit, SAP2000, ETABS, Civil 3D, and BIM tools. I use these tools to support design, analysis, and construction planning.
+              </p>
+
+              <p>
+              In my role as a Site Engineer, I supervised construction activities, coordinated with teams, and ensured work followed engineering drawings and safety standards. I also have experience in project planning and technical documentation.
+              </p>
+
+              <p>
+              Currently, I am advancing my expertise in Digital Construction and Engineering Analytics in Dublin, with a focus on BIM and data-driven construction. I am motivated to contribute to efficient, sustainable, and high-quality engineering projects.
+              </p>
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
