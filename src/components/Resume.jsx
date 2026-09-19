@@ -2,51 +2,72 @@ import React from "react";
 import resumeFile from "../documents/Muruts Gebretsadik.pdf";
 
 const Resume = ({ classicHeader, darkTheme }) => {
-  const educationDetails = [
-    {
-      yearRange: "Sep 2025 - Jun 2027",
-      title: "Postgraduate in Digital Construction and Engineering Analytics",
-      place: "Technological University Dublin",
-      desc: "Specializing in digital construction, BIM, and engineering analytics. Focus on data-driven construction methods, project optimization, and advanced digital tools for the construction industry."
-    },
-   
-    {
-      yearRange: "2024 - 2025",
-      title: "Full Stack Software Development",
-      place: "University of College Dublin",
-      desc: "The Full Stack Software Developer program at University College Dublin focuses on building dynamic applications using Flask, Django, and React, equipping students with comprehensive skills in full-stack development for modern web solutions.",
-    },
-    {
-      yearRange: "2013 - 2018",
-      title: "Civil Engineering",
-      place: "Mekelle University",
-      desc: "The Civil Engineering program at Mekelle University covers design, sustainability, and programming with C++, alongside advanced tools like AutoCAD, SAP2000, and ETABS, preparing students for modern infrastructure challenges",
-    }
-  ];
 
-  const experienceDetails = [
-   
-    {
-      yearRange: "2020 - 2023",
-      title: "Site Engineer",
-      place: "Jadia Construction Plc",
-      desc: "Worked as a Site Engineer at Jadia Construction Plc on the Tsegaye Birhane & Family Real Estate project. Responsible for site supervision, quality control, and ensuring construction work followed engineering drawings, safety standards, and project deadlines."
-    },
-    {
-      yearRange: "2018 - 2020",
-      title: "Office Engineer",
-      place: "Jadia Construction Plc",
-      desc: "Worked as an Office Engineer at Jadia Construction Plc, supporting highway design and project planning. Prepared technical documents, assisted in design reviews, and ensured compliance with engineering standards and project requirements."
-    },
-    {
-      "yearRange": "Sep 2017 - Feb 2018",
-      "title": "Highway Engineer",
-      "place": "Defense Construction Enterprise",
-      "desc": "Assisted in the design and planning of highway projects, ensuring adherence to safety standards and engineering guidelines. Conducted site inspections and data collection to support construction progress. Supported project managers with daily site coordination and communication with subcontractors."
-    },
- 
+const educationDetails = [
+  {
+    yearRange: "2025 - 2026",
+    title: "Postgraduate Certificate in Digital Construction and Engineering Analytics",
+    place: "Technological University Dublin",
+    desc: "Focused on digital construction, Building Information Modelling (BIM), and engineering analytics. Developed skills in data-driven construction methods, project optimisation, and digital technologies for the construction industry."
+  },
 
-  ];
+  {
+    yearRange: "2024 - 2025",
+    title: "Full Stack Software Development",
+    place: "University College Dublin",
+    desc: "Developed practical skills in full-stack web development using React, Flask, Django, databases, and modern web technologies. Built dynamic applications and developed problem-solving skills applicable to digital engineering and construction workflows."
+  },
+
+  {
+    yearRange: "2013 - 2018",
+    title: "Bachelor of Science in Civil Engineering",
+    place: "Mekelle University",
+    desc: "Studied structural engineering, construction, transportation, geotechnical engineering, and infrastructure design. Developed practical experience with engineering software including AutoCAD, SAP2000, and ETABS."
+  }
+];
+
+
+
+
+const experienceDetails = [
+  {
+    yearRange: "Sep 2026 - Present",
+    title: "Graduate Setting Out Engineer",
+    place: "Glent Civil Engineering Ltd",
+    desc: "Working as a Graduate Setting Out Engineer on a major data centre construction project in Dublin. Supporting site setting out, surveying, dimensional control, and as-built verification using surveying equipment and digital construction tools. Working with site teams to ensure construction activities follow drawings, specifications, and project requirements."
+  },
+
+  {
+    yearRange: "2023 - 2024",
+    title: "Engineering Support – Quantity Surveying & Technical Works",
+    place: "Jadiya General Construction PLC",
+    desc: "Provided engineering support remotely after relocating to Ireland. Assisted with Bills of Quantities, quantity calculations, technical documentation, and other construction-related engineering tasks."
+  },
+
+  {
+    yearRange: "2020 - 2023",
+    title: "Site Engineer",
+    place: "Jadiya General Construction PLC",
+    desc: "Worked as a Site Engineer on a residential apartment project. Responsible for site supervision, setting out, quality control, progress monitoring, and ensuring construction activities followed engineering drawings, specifications, safety requirements, and project programmes."
+  },
+
+  {
+    yearRange: "2018 - 2020",
+    title: "Office Engineer",
+    place: "Jadiya General Construction PLC",
+    desc: "Supported highway design, technical documentation, quantity calculations, and project planning. Assisted with design reviews, engineering drawings, and coordination to ensure compliance with project specifications and engineering standards."
+  },
+
+  {
+    yearRange: "Sep 2017 - Feb 2018",
+    title: "Highway Engineer",
+    place: "Defense Construction Enterprise",
+    desc: "Supported highway design and construction activities through site inspections, surveying, and data collection. Assisted with technical documentation, site coordination, and communication with project teams and subcontractors."
+  }
+];
+
+
+
   const skills = [
     {
       name: "AutoCAD",

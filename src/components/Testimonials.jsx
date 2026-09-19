@@ -19,19 +19,19 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
       rating: 5,
     },
     {
-      name: "Patrick Cary",
-      position: "Freelancer from USA",
-      src: "images/testimonial/client-sm-2.jpg",
-      desc: "I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.",
-      rating: 5,
-    },
-    {
-      name: "Chris Tom",
-      position: "User from UK",
-      src: "images/testimonial/client-sm-4.jpg",
-      desc: "I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.",
-      rating: 5,
-    },
+        name: "Getachew Belege",
+        position: "Senior Site Engineer",
+        src: "images/testimonial/client-sm-2.jpg",
+        desc: "Muruts was a dedicated and reliable Site Engineer. He demonstrated strong technical knowledge in site supervision, setting out, quality control, and construction coordination. He worked professionally with the project team and consistently followed engineering drawings, specifications, and safety requirements.",
+        rating: 5,
+      },
+    // {
+    //   name: "Getachew Belege",
+    //   position: "Senior Site Engineer",
+    //   src: "images/testimonial/client-sm-4.jpg",
+    //   desc: " Muruts was a dedicated and reliable Site Engineer. He demonstrated strong technical knowledge in site supervision, setting out, quality control, and construction coordination. He worked professionally with the project team and consistently followed engineering drawings, specifications, and safety requirements.",
+    //   rating: 5,
+    // },
   ];
 
   var settings = {

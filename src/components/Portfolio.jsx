@@ -70,13 +70,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.DESIGN],
     },
     {
-      title: "Project Title 3",
+      title: "Residential Apartment Construction Project",
       projectInfo:
-        "A fully functional eCommerce platform built using Flask, designed to provide a seamless shopping experience. The platform includes features like user authentication, product catalog, shopping cart, order management, payment integration, and an admin dashboard for inventory management. The back-end leverages Flask for robust server-side logic, while templates ensure dynamic content rendering.",
-      client: "Bereket B",
-      technologies: "A fully functional eCommerce platform built using Flask and PostgreSQL, designed to provide a seamless shopping experience. The platform includes features like user authentication, product catalog with advanced search filters, shopping cart, order management, secure payment gateway integration, and an admin dashboard for managing inventory and sales analytics. Flask handles the back-end, while PostgreSQL ensures reliable and scalable data storage.",
-      industry: "Retail & E-Commerce",
-      date: "Julu 20, 2023",
+        "Supported the construction of a residential apartment project as a Site Engineer. Responsibilities included site supervision, setting out, quality control, progress monitoring, coordination with construction teams, and checking works against engineering drawings and project requirements.",
+      client: "Tsegaye Birhane and His Family General Trading PLC",
+      technologies: "AutoCAD, Site Setting Out, Engineering Drawings, Quality Contro ",
+      industry: "Civil Engineering & Construction",
+      date: "July 2020, 2023",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
